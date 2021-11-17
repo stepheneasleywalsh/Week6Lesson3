@@ -6,4 +6,6 @@ def factorial(x):
     else:
         return x*factorial(x-1)
 
-print(factorial(6))
+x = int(input("Input an x and I will calculate x! "))
+
+print(factorial(x))
